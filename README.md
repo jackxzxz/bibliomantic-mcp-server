@@ -1,4 +1,5 @@
 # Bibliomantic MCP Server
+[![smithery badge](https://smithery.ai/badge/@jackxzxz/bibliomantic-mcp-server)](https://smithery.ai/server/@jackxzxz/bibliomantic-mcp-server)
 
 A Model Context Protocol server that integrates I Ching divination with AI responses, exploring the bibliomantic approach described in Philip K. Dick's *The Man in the High Castle*.
 
@@ -26,6 +27,14 @@ This server demonstrates how traditional wisdom systems can be thoughtfully inte
 - **MCP-compatible host** (Claude Desktop, etc.)
 
 ## Installation
+
+### Installing via Smithery
+
+To install bibliomantic-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jackxzxz/bibliomantic-mcp-server):
+
+```bash
+npx -y @smithery/cli install @jackxzxz/bibliomantic-mcp-server --client claude
+```
 
 ### Using uvx (recommended)
 ```bash
